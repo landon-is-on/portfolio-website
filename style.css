@@ -41,7 +41,7 @@
   justify-content: space-between;
 }
 .navbar .logo a {
-  color: black;
+  color: white;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -148,5 +148,19 @@
 @media (max-width: 380px) {
   .navbar .logo a {
     font-size: 27px;
+  }
+}
+
+/* hero picture*/
+
+#hero {
+  width: 100%;
+  height: max-content;
+}
+
+@media (max-width: 360px) {
+  #hero {
+    width: 23rem;
+    height: 20rem;
   }
 }
