@@ -164,3 +164,18 @@
     height: 20rem;
   }
 }
+
+/* start the next seaction of about me, projects,gitHub*/
+
+.about-me {
+  background-color: #1eabc7;
+  width: 25rem;
+  height: 20rem;
+  display: flex;
+  color: white;
+}
+
+.section-link-title {
+  font-size: 2rem;
+  padding-left: 7rem;
+}
