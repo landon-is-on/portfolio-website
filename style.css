@@ -173,9 +173,17 @@
   height: 20rem;
   display: flex;
   color: white;
+  padding: 1rem;
 }
 
 .section-link-title {
   font-size: 2rem;
   padding-left: 7rem;
+}
+
+.learnMoreButton {
+  margin-top: 2rem;
+  margin-left: 9.7rem;
+  margin-right: 10rem;
+  padding: 0.7rem;
 }
