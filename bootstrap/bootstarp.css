@@ -212,17 +212,6 @@
 }
 
 @media (max-width: 375px) {
-  .about-me {
-    background-color: #0c3c60;
-    width: 15rem;
-    height: 20rem;
-    display: flex;
-    color: white;
-
-    border-radius: 1rem;
-    border: 1mm ridge rgba(23, 31, 139, 0.6);
-  }
-
   .section-link-title {
     font-size: 2rem;
     padding-left: 7rem;
@@ -242,13 +231,13 @@
 
   .section-link-title {
     font-size: 2rem;
-    padding-left: 7rem;
+    padding-left: 2rem;
   }
 
   .learnMoreButton {
-    margin-top: 1rem;
-    margin-left: 5px;
-    margin-right: 10rem;
+    margin-top: 0%;
+    margin-left: 2rem;
+    margin-right: 1rem;
     padding-left: 20px;
     padding-right: 20px;
   }
