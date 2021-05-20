@@ -161,7 +161,10 @@
 
 #flex {
   display: flex;
-  margin-left: 15rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 .about-me {
@@ -188,7 +191,18 @@
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
+  transition-duration: 0.4s;
+  background-color: #39729b;
+  border-radius: 4px;
+  border: 0.5mm solid white;
+  color: white;
 }
+
+.learnMoreButton:hover {
+  background-color: #0c3c60; /* Green */
+  color: white;
+}
+
 .sub-text {
   text-align: center;
   margin-right: 31px;
@@ -222,8 +236,8 @@
     padding-left: 7rem;
   }
   #flex {
-    margin-left: 19px;
-    margin-right: 29px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .about-me {
     background-color: #0c3c60;
@@ -258,7 +272,6 @@
     margin-right: 0;
   }
 }
-
 /* about me*/
 #GetToKnowMe-seation {
   padding: 125px 12px 316px 12px;
