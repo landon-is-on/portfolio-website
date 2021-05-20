@@ -63,7 +63,7 @@
   color: #007bff;
 }
 .banner {
-  background: url("banner.jpg") no-repeat;
+  background: url() no-repeat;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -190,8 +190,11 @@
   margin-right: 10rem;
   padding-left: 20px;
   padding-right: 20px;
+  text-decoration: none;
 }
-
+.sub-text {
+  text-align: center;
+}
 @media (max-width: 900px) {
   #flex {
     display: flex;
@@ -241,4 +244,8 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+/* about me*/
+#GetToKnowMe-seation {
+  background-color: #d1e0eb;
 }
