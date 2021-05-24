@@ -156,15 +156,16 @@
 
 #img-sizing {
   width: 30rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 #project-pictures {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-@media (min-width: 375px) {
+@media screen and (min-width: 375px) {
   #img-sizing {
     width: 20rem;
   }
