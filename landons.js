@@ -18,10 +18,15 @@ const body = document.querySelector("body");
       this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
     }
 
-const appearOptions = {};
+const appearOptions = {
+  threshold: 1
+};
 
     const appearOnScroll = new IntersectionObserver
-    (function(entries,appearOnScroll) {
+    (function
+      (entries,
+        appearOnScroll
+        ) {
 entries.forEach(entry => {
   if (!entry.isIntersecting) {
     return;
@@ -32,3 +37,7 @@ appearOnScroll.unobserve(entry.target);
 });
     },
      appearOptions);
+
+     faders.forEach(fader => {
+       appearOnScroll.observe(fader);
+     });
