@@ -190,3 +190,18 @@
 
 
 
+/* media */
+
+@media screen and (max-width: 503px) {
+  #flex  {
+padding-left: 14px;
+padding-right: 14px;
+  }
+}
+
+
+@media  (min-width: 900px) {
+html {
+ 
+}
+}
