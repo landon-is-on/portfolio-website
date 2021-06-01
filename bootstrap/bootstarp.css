@@ -5,44 +5,20 @@
 }
 
 /* flex seaction */
-#flex-title {
-  text-align: center;
-  font-size: 2rem;
-  color: blanchedalmond;
-  padding: 1rem;
-}
 
-#flex {
-  display: flex;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 3%;
-  padding-top: 3%;
-}
-
-.about-me {
+#card-block {
   background-color: #0c3c60;
+  color: #d1e0eb;
   width: 25rem;
   height: 20rem;
-  display: flex;
-  color: white;
-  padding: 1rem;
-  margin-right: 2rem;
-  border-radius: 1rem;
-  border: 1mm ridge rgba(23, 31, 139, 0.6);
-}
-
-.section-link-title {
-  font-size: 2rem;
-  padding-left: 7rem;
+  text-align: center;
+margin: 2rem;
+border: 1mm ridge rgba(23, 31, 139, 0.6);
+border-radius: .3rem;
 }
 
 .learnMoreButton {
-  margin-top: 1rem;
-  margin-left: 9.7rem;
-  margin-right: 10rem;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-top: .5rem;
   text-decoration: none;
   transition-duration: 0.4s;
   background-color: #39729b;
@@ -57,76 +33,33 @@
   transform: rotate(5deg);
 }
 
-.sub-text {
+
+#AllCards {
+ display: flex;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#card-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#card-description {
   text-align: center;
-  margin-right: 31px;
-}
-@media (max-width: 900px) {
-  #flex {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
-  }
-  .about-me {
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
 }
 
-@media (min-width: 903px) {
-  #hero {
-    min-width: fit-content;
-  }
+@media (max-width: 765px) {
+  #AllCards {
+  flex-direction: column;
+align-items: center;
 }
-@media (min-width: 317px) {
-  #flex {
-    margin: auto;
-  }
 }
-@media (max-width: 375px) {
-  .section-link-title {
-    font-size: 2rem;
-    padding-left: 7rem;
-  }
-  #flex {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .about-me {
-    background-color: #0c3c60;
-    width: 15rem;
-    height: 20rem;
-    display: flex;
-    color: white;
-    padding: 1rem;
-    margin-right: 2rem;
-    border-radius: 1rem;
-    border: 1mm ridge rgba(23, 31, 139, 0.6);
-  }
 
-  .section-link-title {
-    font-size: 2rem;
-    padding-left: 2rem;
-  }
-
-  .learnMoreButton {
-    margin-top: 0%;
-    margin-left: 2rem;
-    margin-right: 1rem;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  #aboutME-p {
-    text-align: center;
-    padding-top: 0%;
-  }
-  .sub-text {
-    text-align: center;
-    margin-right: 0;
-  }
-}
 /* about me*/
+
 #GetToKnowMe-seation {
   padding: 125px 12px 316px 12px;
   border: 1mm ridge rgba(23, 31, 139, 0.6);
@@ -152,7 +85,6 @@
   background: #0c3c60;
   color: white;
 }
-
 /*projects*/
 
 #img-sizing {
@@ -200,8 +132,13 @@ padding-right: 14px;
 }
 
 
-@media  (min-width: 900px) {
-html {
- 
+@media (min-width: 901px) {
+#hero {
+ min-width: 100%;
 }
+#flex {
+  width: 100%;
+  padding: auto;
+}
+
 }
