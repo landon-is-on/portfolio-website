@@ -33,7 +33,6 @@ border-radius: .3rem;
   transform: rotate(5deg);
 }
 
-
 #AllCards {
  display: flex;
 margin-left: auto;
@@ -51,12 +50,7 @@ margin-right: auto;
 
 }
 
-@media (max-width: 765px) {
-  #AllCards {
-  flex-direction: column;
-align-items: center;
-}
-}
+
 
 /* about me*/
 
@@ -104,17 +98,21 @@ align-items: center;
   align-items: center;
 }
 
+
+
+/* media */
+@media (max-width: 765px) {
+  #AllCards {
+  flex-direction: column;
+align-items: center;
+}
+}
+
 @media screen and (min-width: 375px) {
   #img-sizing {
     width: 20rem;
   }
 }
-
-
-
-
-
-/* media */
 
 @media screen and (max-width: 503px) {
   #flex  {
