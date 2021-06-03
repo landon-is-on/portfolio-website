@@ -18,26 +18,22 @@ const body = document.querySelector("body");
       this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
     }
 
-const appearOptions = {
-  threshold: 1
-};
+/* hover*/
 
-    const appearOnScroll = new IntersectionObserver
-    (function
-      (entries,
-        appearOnScroll
-        ) {
-entries.forEach(entry => {
-  if (!entry.isIntersecting) {
-    return;
-  } else {
-entry.target.classList.add("appear");
-appearOnScroll.unobserve(entry.target);
-  }
-});
-    },
-     appearOptions);
+const animateCSS = (element, animation, prefix = 'animate__') =>
+  // We create a Promise and return it
+  new Promise((resolve, reject) => {
+    const animationName = `${animate__}${rubberBand}`;
+    const node = document.querySelector(element);
 
-     faders.forEach(fader => {
-       appearOnScroll.observe(fader);
-     });
+    node.classList.add(`${animate__}animated`, rubberBand);
+
+    // When the animation ends, we clean the classes and resolve the Promise
+    function handleAnimationEnd(event) {
+      event.stopPropagation();
+      node.classList.remove(`${animate__`, rubberBand);
+      resolve('Animation ended');
+    }
+
+    node.addEventListener('animationend', handleAnimationEnd, {once: true});
+  });

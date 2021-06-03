@@ -89,7 +89,7 @@ align-items: center;
 
 #img-sizing {
   width: 30rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   padding-bottom: 2rem;
   transition: transform .2s;
 }
@@ -109,16 +109,8 @@ align-items: center;
     width: 20rem;
   }
 }
-/* animations*/
 
-.fade-in {
-  opacity: 0;
-  transition: opacity 250ms ease-in;
-}
 
-.fade-in.appear {
-  opacity: 1;
-}
 
 
 
