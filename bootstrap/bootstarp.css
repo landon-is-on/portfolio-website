@@ -4,6 +4,20 @@
   height: 100%;
 }
 
+.heroCard {
+  
+  height: 10rem;
+  width: 20rem;
+  border-radius: 1rem;
+  background-color: rgba(0,0,0,.5);
+    color: #fff;
+text-align: center;
+z-index: 1;
+position: relative; 
+top: -50rem;
+left: 50rem;
+}
+
 /* flex seaction */
 
 #card-block {
@@ -136,7 +150,7 @@ margin-right: auto;
 
 #project-pictures {
   display: flex;
-  flex-direction: column;
+  
   align-items: center;
 }
 
