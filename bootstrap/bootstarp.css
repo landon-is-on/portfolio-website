@@ -157,9 +157,11 @@ margin-right: auto;
 
 .allProjects {
  margin: auto;
-
 }
 
+#middle-project {
+ 
+}
 
 /* media */
 @media (max-width: 765px) {
