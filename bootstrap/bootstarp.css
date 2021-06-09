@@ -5,6 +5,7 @@ body {
 
 /* hero*/
 #hero {
+ background-color: rgba(0, 0, 0, .8);
   width: 100%;
   height: 100%;
 }
@@ -145,6 +146,7 @@ padding-top: 2rem;
 
   #GetToKnowMe-seation {
 padding-top: 0%; 
+padding-bottom: 10rem;
 border: 0;  
 }
 
