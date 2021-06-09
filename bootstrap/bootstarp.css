@@ -1,4 +1,6 @@
-body {
+  
+  /*---------------- quick access-----------*/
+  body {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -51,29 +53,34 @@ border-radius: .3rem;
 box-shadow: -12px 10px 20px 3px rgba(0, 0, 0, .5);
 }
 
-
+/* -----buttons--------- */
 .learnMoreButton-AboutME {
   margin-top: .5rem;
   text-decoration: none;
   transition-duration: 0.4s;
   background-color:white;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 0.5mm solid white;
   color: black;
+  border: 2px solid black;
 }
+
 .learnMoreButton-AboutME:hover { 
   color: black;
   transform: rotate(5deg);
 }
+
 .learnMoreButton-projects {
   margin-top: .5rem;
   text-decoration: none;
   transition-duration: 0.4s;
   background-color:white;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 0.5mm solid white;
   color: black;
+  border: 2px solid black;
 }
+
 .learnMoreButton-projects:hover {
   color: black;
   transform: rotate(5deg);
@@ -84,16 +91,17 @@ box-shadow: -12px 10px 20px 3px rgba(0, 0, 0, .5);
   text-decoration: none;
   transition-duration: 0.4s;
   background-color:white;
-  border-radius: 4px;
+  border-radius: 10px;
   border: 0.5mm solid white;
   color: black;
+  border: 2px solid black;
 }
+
 .learnMoreButton-Github:hover {
   color: black;
   transform: rotate(5deg);
 }
-
-
+/* -----buttons end--------- */
 
 #AllCards {
  display: flex;
@@ -103,7 +111,7 @@ margin-right: auto;
 }
 
 #card-title {
-  margin-top: 1rem;
+  
   margin-bottom: 1rem;
 }
 
@@ -111,7 +119,7 @@ margin-right: auto;
   text-align: center;
 
 }
-
+/* -----card colors--------- */
 .aboutMe-color {
   background-color: #ffef9c;
 }
@@ -127,7 +135,7 @@ margin-right: auto;
   background-color: #fffae5;
 }
 
-/* about me*/
+/* ------about me-------------*/
 
 #GetToKnowMe-seation {
   padding: 125px 12px 316px 12px;
@@ -168,11 +176,8 @@ border: 0;
   color: white;
 }
 
-.GetToKnowME-p-highLight {
 
-  
-}
-/*projects*/
+/*-------------projects--------------*/
 
 #img-sizing {
   width: 30rem;
@@ -197,7 +202,6 @@ border: 0;
 }
 
 
-
 #projects-header {
 padding-top: 2rem;
   margin-bottom: 3rem;
@@ -212,7 +216,7 @@ font-size: 1rem;
 color: black;
 }
 
-/* media */
+/*--------------- media------------------- */
 @media (max-width: 765px) {
   #AllCards {
   flex-direction: column;
@@ -226,7 +230,7 @@ align-items: center;
   transform: translate(-50%, -50%);
 }
 .heroCard {
-  color: #fff;
+  
 text-align: center;
 z-index: 1;
 font-size: 2rem;
@@ -234,6 +238,7 @@ font-size: 2rem;
 
 }
 
+/* -----375px--------- */
 @media screen and (min-width: 375px) {
   
   #img-sizing {
@@ -250,9 +255,7 @@ font-size: 2rem;
   
   
 }
-
-
-
+/* -----503px--------- */
 @media screen and (max-width: 503px) {
   
   #flex  {
@@ -269,7 +272,7 @@ padding-right: 14px;
   }
   
   .heroCard {
-    color: #fff;
+    
 text-align: center;
 z-index: 1;
 font-size: 2rem;
@@ -277,7 +280,7 @@ font-size: 2rem;
 
 }
 
-
+/* -----901px--------- */
 @media (min-width: 901px) {
 
   #hero {
@@ -300,7 +303,7 @@ font-size: 2rem;
 
 }
 
-
+/* -----990px--------- */
 @media screen and (max-width: 990px) {
   
   #project-pictures {

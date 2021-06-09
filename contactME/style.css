@@ -1,11 +1,11 @@
 html,
 #contact-div {
-  background-color:#E9C46A;
+  background-color:#fff6cc;
 }
 
 #contactME-div {
   text-align: center;
-  background-color:#E9C46A;
+  background-color:#fff6cc;
   color: black;
 }
 
@@ -16,10 +16,16 @@ html,
 }
 
 #contactME-a:hover {
-  color:  #2A9D8F;
+  color:  #575448;
 }
 
 #contactHeader {
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+
+
+#navColor{
+  color: black;
 }
