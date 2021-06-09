@@ -12,9 +12,14 @@ html,
 #contactME-a {
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 #contactME-a:hover {
   color:  #2A9D8F;
+}
+
+#contactHeader {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }

@@ -1,8 +1,14 @@
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
+.titleFont{
+  font-family: 'Playfair Display', serif;
+}
 
+#navColor{
+  color: black;
+}
 /* hero*/
 #hero {
  background-color: rgba(0, 0, 0, .8);
@@ -20,12 +26,14 @@ body {
 }
 
 .heroCard {
-    color: black;
+    color:black;
 text-align: center;
 z-index: 1;
 font-size: 3rem;
 text-transform: capitalize;
 font-weight: 600;
+background: #ffef9c;
+padding: 1rem;
 }
 
 
@@ -105,18 +113,18 @@ margin-right: auto;
 }
 
 .aboutMe-color {
-  background-color: #E9C46A;
+  background-color: #ffef9c;
 }
 .aboutMEColor-text{
   color: black;
 }
 
 .projects-color {
-  background-color: #2A9D8F;
+  background-color: #fff6cc;
 }
 
 .GitHub-color {
-  background-color: #264653;
+  background-color: #fffae5;
 }
 
 /* about me*/
@@ -126,8 +134,8 @@ margin-right: auto;
   border: 1mm ridge rgba(23, 31, 139, 0.6);
 }
 
-.test {
-  background-color: #E9C46A;
+.aboutME-article {
+  background-color: #ffef9c;
   width: 100%;
   height: 100%;
 
@@ -156,24 +164,27 @@ border: 0;
 
 
 .sectionProjects-color {
-  background: #2A9D8F;
+  background: #fff6cc;
   color: white;
 }
 
 .GetToKnowME-p-highLight {
-  color:#2a9d8f;
+
+  
 }
 /*projects*/
 
 #img-sizing {
   width: 30rem;
-  padding-top: 1.5rem;
-  padding-bottom: 2rem;
-  transition: transform .2s;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  transition: all 100ms ease-in; 
 }
 
 #img-sizing:hover {
   transform: scale(1.3);
+  box-shadow: -12px 10px 20px 2px rgba(0, 0, 0, .3);
+  transition: all 250ms cubic-bezier(.1,.6,.95,.97);
 }
 
 #project-pictures {
@@ -185,20 +196,20 @@ border: 0;
  margin: auto;
 }
 
-#middle-project {
- 
-}
+
 
 #projects-header {
 padding-top: 2rem;
   margin-bottom: 3rem;
 font-weight: 600;
-
+font-size: 4rem;
+color: black;
 }
 
 .project-text {
 text-transform: capitalize;
 font-size: 1rem;
+color: black;
 }
 
 /* media */
