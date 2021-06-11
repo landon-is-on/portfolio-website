@@ -38,6 +38,17 @@ background: #ffef9c;
 padding: 1rem;
 }
 
+.heroCard-button {
+  color:black;
+text-align: center;
+z-index: 1;
+font-size: 1rem;
+text-transform: capitalize;
+font-weight: 600;
+background: #ffef9c;
+padding: 1rem;
+}
+
 
 /* flex seaction */
 
@@ -254,6 +265,7 @@ font-size: 2rem;
   }
   
   
+  
 }
 /* -----503px--------- */
 @media screen and (max-width: 503px) {
@@ -276,6 +288,9 @@ padding-right: 14px;
 text-align: center;
 z-index: 1;
 font-size: 2rem;
+}
+.heroCard-button {
+  font-size: .5rem;
 }
 
 }
