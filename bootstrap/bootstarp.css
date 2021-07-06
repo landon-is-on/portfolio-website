@@ -229,6 +229,14 @@ border: 0;
   grid-row: 2/1;
 }
  
+#five{
+
+}
+
+#six{
+  grid-column: 3;
+  grid-row: 1;
+}
 
 .allProjects {
  margin: auto;
