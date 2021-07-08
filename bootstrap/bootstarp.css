@@ -11,6 +11,14 @@
 #navColor{
   color: black;
 }
+
+.navbar-collapse{
+ flex-grow: 0;
+ justify-content: center;
+}
+#wholeNavBar{
+  justify-content: space-around;
+}
 /* hero*/
 #hero {
  background-color: rgba(0, 0, 0, .8);
@@ -181,10 +189,13 @@ padding-right: .5rem;
 }
 
   #GetToKnowMe-seation {
-padding-top: 0%; 
+padding-top: 1rem; 
 padding-bottom: 10rem;
 border: 0;  
+padding-left: 1rem;
+padding-right: 1rem;
 }
+
 
 
 .sectionProjects-color {
@@ -196,7 +207,7 @@ border: 0;
 /*-------------projects--------------*/
 
 #img-sizing {
-  width: 30rem;
+  width: 20rem;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
   transition: all 100ms ease-in; 
@@ -211,7 +222,7 @@ border: 0;
 #project-pictures {
   display: grid;
     grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 1rem;
+  grid-column-gap: .2rem;
   grid-template-rows:1rem ;
   }
 #one {
@@ -277,7 +288,7 @@ font-size: 2rem;
 }
 /*med phone*/
 /* -----375px--------- */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   
   #img-sizing {
     width: 20rem;
