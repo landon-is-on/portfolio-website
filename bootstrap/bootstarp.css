@@ -367,6 +367,7 @@ font-size: 2rem;
 
 
 /* -----tablet--------- */
+/*681px*/
 @media screen and (max-width: 681px) {
   #project-pictures {
     display: flex;
@@ -374,6 +375,7 @@ font-size: 2rem;
   }
 }
 /*laptop grid*/
+/*1024px*/
 @media screen and (max-width: 1024px) {
   #project-pictures {
     display: grid;
@@ -410,6 +412,7 @@ font-size: 2rem;
   
 }
 /*tablet for grid*/
+/*684*/
 @media screen and (max-width: 684px) {
   #project-pictures {
     display: grid;
@@ -444,4 +447,11 @@ font-size: 2rem;
     grid-row: 3;
   }
 
+}
+
+/**/
+@media screen and (max-width: 864px) {
+  .heroText{
+    top: 14rem;
+  }
 }
