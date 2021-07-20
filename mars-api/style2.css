@@ -1,0 +1,228 @@
+/* html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #f8edeb;
+}
+/*-- hero---*/
+#allHeroHeaders{
+position:relative;
+top: 7rem;
+text-align: center;
+}
+
+#calander-input{
+    height: 6rem;
+text-align: center;
+position:relative;
+top: 8rem;
+}
+/*hero-pic*/
+.hero{
+    background-image: url(/mars-api/backgroundpics/wp2461878.jpg);
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*words on picture*/
+    #hero-title{
+        font-size: 4.5rem;
+        color: black;
+        font-family: 'Cinzel', serif;
+    margin-bottom: .5rem;
+    }
+    
+    #mars-headerWord:hover{
+        box-shadow: -0px -1px 9px 3px rgba(254, 246, 163, .6); 
+        color: #6f3b26;
+    }
+   
+    
+    #hero-p{
+        margin-top: 2rem;
+        font-family: 'Cinzel', serif;
+        font-size: 2rem;
+        color: black;
+        font-weight: bold;
+    }
+
+    #hero-sub{
+        font-family: 'Cinzel', serif;
+        font-size: 1rem;
+        color: black;
+        font-weight: bold;
+        
+    }
+    /*--info panel--*/
+    .info-header{
+padding: 1rem;
+font-family: 'Cinzel', serif;
+    }
+    
+    .allInfo-d{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        height: 20.9rem;
+    }
+    
+#underline{
+    text-decoration:underline;
+}
+
+    .info-panal{
+        margin-top: 5rem;
+        margin-left: 1rem;
+        font-size: 1.2rem;
+        height: 10rem;
+        width: 20rem;
+        background: rgb(75,33,21);
+background: linear-gradient(336deg, rgba(75,33,21,1) 0%, rgba(135,66,40,1) 47%, rgba(198,82,35,1) 97%, rgba(169,85,51,1) 100%);
+        color:black;
+        padding: 1rem;
+        text-align: center;
+        border-radius: 6rem;
+        transition: all 100ms ease-in; 
+    }
+
+    .info-panal:hover {
+            transform: scale(1.6);
+            box-shadow: -12px 10px 20px 2px rgba(0, 0, 0, .3);
+            transition: all 250ms cubic-bezier(.1,.6,.95,.97);
+          }
+    
+          .info-p{
+            font-size: 1rem;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        #info-panal-zoom{
+            transition: all 100ms ease-in;
+        }
+        #info-panal-zoom:hover{
+            transform: scale(1.1);
+          
+        }
+/*----api------*/
+
+
+.roverPic{
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+position: absolute;
+left: 40rem;
+width: 39rem;
+height: 24rem;
+transition: all 100ms ease-in; 
+}
+
+.roverPic:hover{
+    transform: scale(1.1);
+    box-shadow: -20px -20px 14px 3px rgba(0, 0, 0, .1);
+    transition: all 250ms cubic-bezier(.1,.6,.95,.97);
+}
+
+#button{
+    width: 3%;
+    height: 3rem;
+    border: 2px solid #a75b3b;
+   cursor: pointer;
+    border-radius: rem;
+   text-align: center;
+   border-left: none;
+background-color: white;
+border-radius: 1rem;
+}
+
+input {
+    text-align: center;
+}
+.searchTerm {
+width: 8%;
+  border: 2px solid #a75b3b;
+  padding: 5px;
+  height: 3rem;
+  border-radius: 1rem;
+  outline: none;
+  border-right: none;
+background-color: white;
+}
+
+/*media */
+
+@media screen and (max-width: 1440px) {
+    .roverPic{
+        left: 25rem;
+    }
+   
+}
+
+@media screen and (max-width: 1034px) {
+    .roverPic{
+        left: 13rem;
+    } 
+    #button{
+        width: 3rem;
+    }
+    .searchTerm{
+        width: 7rem;
+    }
+    
+}
+
+@media screen and (max-width: 848px) {
+    .roverPic{
+        left: 5rem;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .roverPic{
+        top: rem;
+        width: 30rem;
+        height: 20rem;
+        left: 4rem;
+    }
+   
+    .allInfo-d{
+        height: 0%;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+   
+}
+
+@media screen and (max-width: 616px) {
+    .roverPic{
+
+        width: 20rem;
+        height: 15rem;
+        left: 6rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 425px) {
+    .roverPic{
+        width: 20rem;
+        height: 15rem;
+        left: 3rem;
+    }
+   
+    
+}
+
+@media screen and (max-width: 425px) {
+    .roverPic{
+        left: 2rem;
+    }    
+}
+
