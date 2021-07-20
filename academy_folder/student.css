@@ -1,0 +1,531 @@
+* {
+  margin: 0px;
+  padding: 0px;
+box-sizing: border-box;
+}
+/*------nav bar---*/
+#navbarNavAltMarkup{
+justify-content:space-around;
+}
+
+.nav-link{
+font-size: 1.3rem;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+
+#nav-button {
+  background-color: #ea686c;
+  color: white;
+  border-radius: 1rem;
+text-decoration: none;
+border: none;
+padding: .5rem;
+}
+/*end-----------------------*/
+/*----hero-----------*/
+#hero {
+    background-image: url(/academy_folder/academy_pic/Image\ 26.png);
+    width: auto;
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+position: relative;
+}
+
+#g-hero {
+  background-image: url(/academy_folder/academy_pic/Mask\ Group\ 7.png);
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+width: auto;
+background-color: #47cdc6;
+text-align: center;
+}
+
+.set-up {
+  background-color: #556272;
+  font-family: "Montserrat", sans-serif;
+  width: 20rem;
+  height: auto;
+  text-align: center;
+  margin-top: 2rem;
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+
+}
+
+#set-up-header {
+  font-size: 1.3rem;
+  color: white;
+}
+
+#set-up-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.who-we-are {
+  text-align: center;
+}
+
+#who-we-are-header {
+  color: #556272;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: "Karla", sans-serif;
+  font-weight: bolder;
+  margin-top: 4rem;
+text-align: center;
+}
+
+#who-we-are-text {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
+  margin-bottom: 5rem;
+}
+/*----end-------------------------------*/
+/*------green banner----------*/
+#first-green-lorem {
+  background-color: #47cdc6;
+  width: auto;
+}
+
+#first-green-lorem-text {
+  position: absolute;
+  top: 5rem;
+  left: 28%;
+  color: white;
+  line-height: 2rem;
+  font-size: 1.7rem;
+}
+
+
+
+#first-green-lorem-little-text {
+  position: absolute;
+  top: 10rem;
+  left: 38%;
+  color: white;
+  line-height: 2rem;
+  font-style: italic;
+}
+
+#second-green-lorem {
+  background-color: #47cdc6;
+  width: auto;
+  
+}
+#second-green-lorem-text {
+  position: absolute;
+  top: 5rem;
+  left: 28%;
+  color: white;
+  line-height: 2rem;
+  font-size: 1.7rem;
+}
+
+#second-green-lorem-little-text {
+  position: absolute;
+  top: 10rem;
+  left: 38%;
+  color: white;
+  line-height: 2rem;
+  font-style: italic;
+}
+/*-------end--------------------*/
+/*"modes"*/
+#modes-title {
+  color: #556272;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-family: "Karla", sans-serif;
+  font-weight: bolder;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#modes-text {
+  text-align: center;
+}
+.modes-flex {
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
+}
+#modes-pics{
+  transition: all 100ms ease-in; 
+}
+
+#modes-pics:hover{
+  transform: scale(1.01);
+  transition: all 250ms cubic-bezier(.1,.6,.95,.97);
+}
+/*---------end------------------*/
+/*grid--------layout*/
+#gridLeftPicure{
+width: 30rem;
+height: 30rem;
+}
+.wrapper {
+  
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 23.5rem);
+  column-gap: 1%;
+  row-gap: 1%;
+}
+
+.one {
+ text-align: left;
+  grid-column: 1;
+ grid-row-start: 1;
+ grid-row-end: 3;
+}
+.two {
+  
+  grid-column:2/2;
+  text-align: right;
+}
+.three {
+  width: 200px;
+  grid-column:3/3;
+text-align: left;
+}
+.four {
+ 
+  grid-column: 2/3;
+ grid-row: 2/2;
+ text-align: right;
+}
+.five {
+  width: 200px;
+  grid-column: 3/3;
+  grid-row: 2/3; 
+text-align: left;
+}
+/*-----end---------------------*/
+/*card----------------*/
+.card-pics {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#card-title {
+  font-size: 2rem;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*------end--------------------------------*/
+/*------------text inside card-----------*/
+#core-program,
+#core-program-lorem {
+  text-align: center;
+}
+
+#core-program {
+  font-size: 3rem;
+  font-family: "Karla", sans-serif;
+  color: #556272;
+  text-transform: capitalize;
+margin-top: 1rem;
+}
+
+#core-program-lorem {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+#kids-yelling {
+  width: 100%;
+  margin-top: 9rem;
+}
+
+#card-title {
+  margin-top: 12rem;
+  font-family: "Karla", sans-serif;
+}
+/*------end--------------------------------*/
+
+/*kids yelling-----------------------------*/
+#kids-yelling-title {
+  color: black;
+  position: absolute;
+  left: 43rem;
+  bottom: -200rem;
+  font-family: "Karla", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+/*----end---------------------------*/
+/*---students projects------*/
+.kids-projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+#student-showdown {
+  font-size: 3rem;
+  margin-top: 7rem;
+  text-align: center;
+}
+/*-----------------sponsors---------*/
+h5 {
+  text-align: center;
+}
+
+#partners {
+  text-align: center;
+}
+
+.sponors {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+#creator{
+text-align: center;
+color: black;
+font-weight: bold;
+}
+/*-------------------end-------------*/
+/* media queary*/
+/*---large laptop--------*/
+@media screen and (max-width: 1200px) {
+  #modes-pics {
+    width: 18rem;
+    }
+    #first-green-lorem-text{
+      left: 7rem;
+    }
+    #first-green-lorem-little-text {
+      left: 7rem;
+    }
+#second-green-lorem-text{
+left: 7rem;
+
+}
+#second-green-lorem-little-text{
+  left: 7rem
+}
+
+#kids-yelling-title{
+  left: 10rem;
+}
+.gridPics {
+  width: 16rem;
+}
+#gridLeftPicure {
+  width: 20rem;
+  height: 25rem;
+}
+.wrapper {
+  grid-template-columns: repeat(3, 19rem);
+  }
+  #partners{
+    width: 30rem;
+  }
+  #kids-yelling-title{
+    bottom: -188rem;
+  }
+}
+/* reg laptop*/
+@media screen and (max-width: 1024px) {
+#kids-yelling-title{
+  bottom: -185rem;
+}
+}
+
+@media screen and (max-width: 908px) {
+  #kids-yelling-title{
+   font-size: 2rem;
+    bottom: -190rem;
+}
+#first-green-lorem-little-text {
+  left: 10rem;
+top: 15rem;
+}
+#second-green-lorem-little-text {
+  left: 10rem;
+top: 15rem;
+}
+.wrapper {
+  grid-template-columns: repeat(3, 17.2rem);
+}
+#modes-pics {
+  width: 14rem;
+  }
+}
+/*-------tablet---*/
+@media screen and (max-width: 768px) {
+  .kids-projects{
+    flex-direction: column;
+    text-align: center;
+  }
+  #appShow-hidden{
+  display: none;
+  }
+.card-div{
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+;
+}
+#kids-yelling-title{
+  font-size: 2.5rem;
+   bottom: -242rem;
+}
+.card {
+  margin-bottom: 2rem;
+
+}
+
+.modes-flex{
+  flex-direction: column;
+  text-align: center;
+}
+.wrapper {
+  
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 15.5rem);
+  column-gap: 1%;
+  row-gap: 1%;
+}
+
+.one {
+ text-align: left;
+  grid-column: 1;
+ grid-row-start: 1;
+ grid-row-end: 3;
+display: none;
+}
+.two {
+  
+  grid-column:1/2;
+  text-align:left;
+}
+.three {
+  width: 200px;
+  grid-column:2/3;
+  grid-row: 1/2;
+text-align: left;
+}
+.four {
+ 
+  grid-column: 1/3;
+ grid-row: 1/2;
+ text-align: left;
+}
+.five {
+  width: 200px;
+  grid-column: 2/3;
+  grid-row: 2/3; 
+text-align: left;
+}
+#kids-yelling-title{
+  bottom: -272rem;
+  font-size: 2rem;
+}
+#partners{
+  width: 23rem;
+}
+}
+
+@media screen and (max-width: 535px) {
+  #first-green-lorem-little-text {
+    left: 10rem;
+  top: 12rem;
+font-size: 1rem;  
+} 
+  #first-green-lorem-text{
+    left: 1rem;
+    font-size: 1rem;
+  top: 7rem;
+  }
+  #second-green-lorem-little-text {
+    left: 10rem;
+  top: 12rem;
+  font-size: 1rem;}
+  #second-green-lorem-text {
+    left: 1rem;
+    font-size: 1rem;
+  top: 7rem;
+  }
+#kids-yelling-title{
+  bottom: -280rem;
+}
+.gridPics{
+  width: 13rem;
+}
+.wrapper{
+  grid-template-columns: repeat(2, 13.3rem);
+}
+}
+/*----large phone----*/
+@media screen and (max-width: 425px) {
+  #kids-yelling-title{
+    bottom: -285rem;
+    font-size: 1.5rem;
+  left: 5rem;
+  }
+.wrapper{
+  grid-template-columns: repeat(2, 11.5rem);
+}
+#second-green-lorem-text {
+  left: 1rem;
+  font-size: 1rem;
+top: 4rem;
+}
+
+#second-green-lorem-little-text {
+  left: 8rem;
+top: 16rem;
+font-size: 1rem;
+}
+#first-green-lorem-little-text {
+  left: 8rem;
+top: 16rem;
+font-size: 1rem;  
+} 
+#first-green-lorem-text{
+  left: 1rem;
+  font-size: 1rem;
+top: 4rem;
+}
+}
+/*------mid phone-------*/
+@media screen and (max-width: 375px) {
+  .gridPics{
+    width: 11rem;
+  }
+  .wrapper{
+    grid-template-columns: repeat(2, 10.3rem);
+  }
+.three{
+  width: 200px;
+}
+.five{
+  width: 200px;
+}
+#first-green-lorem-little-text {
+  left: 2rem;
+}
+#second-green-lorem-little-text {
+  left: 2rem;
+}
+}
