@@ -226,3 +226,18 @@ background-color: white;
     }    
 }
 
+@media screen and (max-width: 1022px) {
+    #info-panal-zoom{
+        width: 21rem;
+    }
+.allInfo-d{
+    justify-content: left;
+}
+.info-panal{
+    width: 14rem;
+    font-size: 1rem;
+}
+.info-header{
+    font-size: 1rem;
+}
+}

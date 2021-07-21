@@ -656,3 +656,17 @@ width: 26rem;
       padding-right: 1rem;
     }
   }
+
+  @media screen and (max-width: 415px) {
+    #stickypic-h{
+      top: 245rem;
+    left: 5rem;
+    }
+  #stickypicTop-p{
+    left: 8rem;
+    top: 244rem;
+  }
+  #stickypicBottom-p{
+    left: 2.6rem;
+  }
+  }
