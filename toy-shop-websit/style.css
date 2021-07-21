@@ -637,3 +637,22 @@ width: 26rem;
     }
   }
 
+  @media screen and (max-width: 411px) {
+    #stuffed-Animals-div{
+      width: 20rem;
+    padding-left: 0%;
+    }
+    #wooden-toys-div{
+      width: 20rem;
+    }
+  #allSideText{
+   width: 22rem;
+  }
+  }
+
+  @media screen and (max-width: 598px) {
+    #kids-div{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }

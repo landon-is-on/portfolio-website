@@ -335,6 +335,9 @@ font-size: 2rem;
 }
 
 }
+
+
+
 /*laptop*/
 /* -----901px--------- */
 @media (min-width: 901px) {
@@ -457,4 +460,17 @@ font-size: 2rem;
   .heroText{
     top: 14rem;
   }
+}
+
+
+@media screen and (max-width: 425px) {
+  .heroText{
+    top: 7rem;
+    width: 10rem;
+    height: 3rem;
+  
+  }
+.titleFont{
+  font-size: 1rem;
+}
 }
