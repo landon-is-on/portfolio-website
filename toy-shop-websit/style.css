@@ -548,9 +548,13 @@ flex-direction: column;
 }
 #stuffed-Animals-div{
   width: 25rem;
+margin-left: 1rem;
+margin-right: 1rem;
 }
 #wooden-toys-div{
   width: 25rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 #kids-playing-i{ 
   width: 13rem;
@@ -627,7 +631,7 @@ width: 26rem;
 @media screen and (max-width: 375px) {
   #allSideText {
     padding-right: 0%;
-    width: 23rem;
+    width: 20rem;
     }
     #stuffed-Animals-div{
       width: 20rem;
@@ -668,5 +672,11 @@ width: 26rem;
   }
   #stickypicBottom-p{
     left: 2.6rem;
+  }
+  #allSideText{
+    width: 19rem;
+  }
+  #stuffed-Animal-div{
+    margin-left: .8px;
   }
   }
