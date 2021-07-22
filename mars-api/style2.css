@@ -228,10 +228,10 @@ background-color: white;
 
 @media screen and (max-width: 1022px) {
     #info-panal-zoom{
-        width: 21rem;
+        
     }
 .allInfo-d{
-    justify-content: left;
+    justify-content: center;
 }
 .info-panal{
     width: 14rem;
