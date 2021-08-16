@@ -135,8 +135,12 @@ margin-right: auto;
 }
 
 #card-title {
-  
   margin-bottom: 1rem;
+  transition-duration: 0.4s;
+}
+#card-title:hover{
+  
+  transform: rotate(.5deg);
 }
 
 #card-description {
@@ -144,8 +148,13 @@ margin-right: auto;
 
 }
 /* -----card colors--------- */
+
 .aboutMe-color {
   background-color: #ffef9c;
+  transition-duration: 0.4s;
+}
+.aboutMe-color:hover {
+  transform: rotate(.5deg);
 }
 .aboutMEColor-text{
   color: black;
@@ -153,11 +162,20 @@ margin-right: auto;
 
 .projects-color {
   background-color: #fff6cc;
+  transition-duration: 0.4s;
 }
-
+.projects-color:hover{
+  transform: rotate(.5deg);
+}
 .GitHub-color {
   background-color: #fffae5;
+  transition-duration: 0.4s;
 }
+
+.GitHub-color:hover{
+  transform: rotate(.5deg);
+}
+
 
 /* ------about me-------------*/
 
@@ -179,7 +197,12 @@ font-weight: 600;
 margin-bottom: 2.5rem;
 margin-top: 1.5rem;
 padding-top: 2rem;
+transition-duration: 0.4s;
 }
+#GetToKnowME-header:hover{
+  transform: rotate(2deg);
+}
+
 #GetToKnowME-p {
   text-align: center;
   color: black;
