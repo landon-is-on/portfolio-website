@@ -403,6 +403,9 @@ font-size: 2rem;
   #card-block {
     width: 20rem;
   }
+#GetToKnowME-p{
+  font-size: 1rem;
+}
 }
 
 
@@ -413,6 +416,7 @@ font-size: 2rem;
     display: flex;
     flex-direction:column;
   }
+
 }
 /*laptop grid*/
 /*1024px*/
@@ -506,6 +510,9 @@ font-size: 2rem;
   
   }
 .titleFont{
-  font-size: 1rem;
+  font-size: 1.4rem;
+}
+#GetToKnowME-p{
+  font-size: 1.3rem;
 }
 }
